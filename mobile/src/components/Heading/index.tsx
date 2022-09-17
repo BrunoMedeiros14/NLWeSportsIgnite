@@ -1,9 +1,9 @@
-import { View, Text, ViewProps } from "react-native";
-import { styles } from "./styles";
+import { View, Text, ViewProps } from 'react-native'
+import { styles } from './styles'
 
 interface Props extends ViewProps {
-  title: string;
-  subtitle: string;
+  title: string
+  subtitle: string
 }
 
 export function Heading({ title, subtitle, ...rest }: Props) {
@@ -13,5 +13,5 @@ export function Heading({ title, subtitle, ...rest }: Props) {
 
       <Text style={styles.subtitle}>{subtitle}</Text>
     </View>
-  );
+  )
 }

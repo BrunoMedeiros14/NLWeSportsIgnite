@@ -38,7 +38,7 @@ function App() {
   }, []);
 
   return (
-    <div className="max-w-[1344px] mx-auto flex flex-col items-center my-20">
+    <div className="max-w-[1344px] mx-auto flex flex-col items-center my-16">
       <img src={logoImg} alt="__blank" />
 
       <h1 className="text-6xl text-white font-black mt-20">
